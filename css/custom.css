@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+:root{
+    --first-color: #5b4834;
+    --second-color: #aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+    font-family: 'Cairo', sans-serif;
+    background: #f3f3f3;
+
+}
+nav.navbar{
+    background: #fff !important;
+    border-bottom:1px solid #EAEAEA ;
+   
+}
+/*start content*/ 
+.content{
+    margin-top: 70px;
+}
+.content .post{
+    text-align: center;
+    background: #fff;
+    padding: 20px 22px ;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 30px;
+}
+.post .post-image{
+
+    width: 100%;
+}
+.post .post-image img{
+   
+  
+    object-fit:contain;
+    object-position:center; 
+    width: 100%;
+    height: 320px;
+
+}
+.post .post-title{
+    margin: 10px 0px;
+
+}
+
+.post .post-title a{
+    color: #555 ;
+
+}
+.post .post-title a:hover{
+    color: #DDD;
+    transition: 2s;
+}
+.post .post-details button.btn-custom {
+background: transparent;
+color: var(--first-color);
+    border: 1px solid var(--first-color) ;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 110px;
+    margin-bottom: 10px;
+
+}
+.post .post-details button.btn-custom:hover{
+    background: var(--first-color);
+    color: #fff;
+}
+.post .post-details .post-info{
+    color: var(--second-color);
+}
+
+
+.post .post-details .post-info span {
+
+    margin-left: 10px;
+   
+
+}
+
+.post .post-details .post-info span  i{
+
+    margin-left: 5px;
+
+   
+}
+
+/*end content*/
+
+/* start side bar */
+.categories{
+    background: #fff;
+    border-bottom: 1px solid #EAEAEA ;
+   padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.categories h4{
+    text-align: center;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid var(--second-color);
+}
+.categories ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.categories ul li{
+    background: var(--first-color);
+    margin-bottom: 3px ;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+.categories ul li a{
+    color: #fff;
+
+}
+.categories ul li:hover{
+background: var(--second-color);
+    transition: all 0.3s ease-in-out;
+
+}
+.last_posts{
+    background: #fff;
+    border: 1px solid #EAEAEA;
+    padding: 20px 10px;
+
+}
+.last_posts h4{
+    text-align: center;
+    
+}
+.last_posts ul{
+    list-style: none;
+    margin-top:  10px;
+    padding: 0;
+}
+.last_posts ul li{
+    border-bottom: 1px solid var(--second-color);
+    margin-bottom: 10px;
+    padding: 5px 0 ;
+
+}
+.last_posts ul li:first-child{
+    border-top: 1px solid var(--second-color) ;
+}
+.last_posts ul li:last-child{
+    border-bottom: 0;
+}
+.last_posts ul li  .span-image{
+
+margin-left: 10px;
+
+}
+.last_posts ul li a {
+color: var(--first-color);
+}
+.last_posts ul li a :hover
+{
+    color: var(--second-color);
+    transition: all ease-in-out;
+}
+
+
+/* End side bar */
+/*Start footer*/
+
+footer {
+    background: #fff;
+    border-top: 1px solid #EAEAEA;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+/*End footer*/

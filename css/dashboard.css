@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+:root{
+    --first-color: #5b4834;
+    --second-color: #aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family:sans-serif;
+    font-family: 'Cairo', sans-serif;
+    background: #f3f3f3;
+    list-style: none;
+
+}
+#side-area{
+    
+    background: var(--first-color);
+    color:#fff;
+    padding: 20px 0;
+    
+}
+#side-area h4{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+#side-area  ul{
+   
+    list-style: none;
+    padding: 0;
+}
+#side-area  ul li{
+    background: var(--second-color);
+    margin-bottom: 5px;
+    padding: 4px;
+}
+#side-area  ul li a{
+    color: #fff;
+}
+#side-area #menu li{
+    background: black;
+
+}
+/*main area*/
+#main-area{
+    margin-top: 10px;
+}
+
+
+/* categories*/
+.add-category{
+    margin-top: 20px ;
+}
+.btn-custom{
+    background: var(--first-color);
+    color: #fff !important;
+    cursor: default;
+    margin-top: 10px;
+    border:  1px solid var(--first-color);
+    padding: 5px 10px;
+    width: 100px;
+}
+.display-cat tr:first-child {
+    background: var(--first-color) !important;
+    color: #fff;
+}
+
+.display-posts tr:first-child {
+
+   background: var(--first-color) !important;
+    color: #fff;
+    padding: 3px;
+}
